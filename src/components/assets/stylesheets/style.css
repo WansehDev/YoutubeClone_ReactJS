@@ -1,0 +1,123 @@
+.m-1 {
+    margin: 0.25em;
+}
+
+.ml-1 {
+    margin-left: 0.55em !important;
+}
+
+.m1-2 {
+    margin-left: 1em !important;
+}
+
+.mr-1 {
+    margin-right: 0.8em !important;
+}
+
+.mr-2 {
+    margin-right: 1em !important;
+}
+
+
+.mb {
+    margin-bottom: 1em;
+}
+
+.mb-1 {
+    margin-bottom: 2em !important;
+}
+
+.mb-custom {
+    margin-bottom: 3em !important;
+}
+
+.mt-1 {
+    margin-top: 1em !important;
+}
+
+.no-mt-mr {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.fr-border {
+    border-radius: 0 !important;
+}
+
+.no-m {
+    margin: 0 !important;
+}
+
+.bb {
+    border-bottom: 1px solid #303132 !important;
+}
+
+.f-w-color {
+    color: #8e9194 !important;
+}
+
+.c-w-color {
+    color: white !important
+}
+
+.sticky-header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+}
+
+.bg-color {
+    height: 100vh !important;
+    background-color: #1b1c1d !important;
+}
+
+.yt-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-list-component:hover {
+    cursor: pointer;
+    background-color: #2b2b2d !important ;
+
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.pl-1 {
+    padding-left: 1em !important;
+}
+
+.vid-title {
+    font-size: 2em;
+}
+
+
+.title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-45%, -50%);
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+}
+
+.logo:hover {
+    cursor: pointer;
+}
