@@ -72,7 +72,8 @@
 }
 
 .bg-color {
-    height: 100vh !important;
+    height: 100% !important;
+    width: 100% !important;
     background-color: #1b1c1d !important;
 }
 
@@ -120,4 +121,9 @@
 
 .logo:hover {
     cursor: pointer;
+}
+
+.invert-color {
+    filter: invert(100%) !important;
+    font-weight: bold;
 }

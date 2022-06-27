@@ -94,9 +94,22 @@ class App extends Component {
     });
   }
 
+  componentDidMount = async () => {
+    // get random videos from the api
+    const response = await youtube.get("/search", {
+      params: {
+        q: "",
+      },
+    })
+
+    this.setState({
+      videos: response.data.items,
+    });
+  }
+
   render() {
     return (
-      <div className="ui bg-color">
+      <div className="ui bg-color" >
         <Header
           handleOnChangeSearch={this.handleOnChangeSearch}
           handleSubmit={this.handleSubmit}
@@ -121,9 +134,10 @@ class App extends Component {
             </div>
           </div>
         ) : (
-          <Home />
-        )}
-      </div>
+          <Home videos={this.state.videos} onVideoSelect={this.handleYoutubeVideoSelect}/>
+        )
+        }
+      </div >
     );
   }
 }

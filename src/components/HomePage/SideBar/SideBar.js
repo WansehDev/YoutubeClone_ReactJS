@@ -5,7 +5,7 @@ import "../../assets/stylesheets/style.css";
 
 const SideBar = (props) => {
     return (
-        <div className="ui four wide column">
+        <div className="ui tablet computer only four wide column">
             <div className="ui inverted middle aligned large selection very relaxed list">
                 <div className="pl-1 item">
                     <i className="newspaper outline icon large"></i>

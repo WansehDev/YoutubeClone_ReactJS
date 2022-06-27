@@ -5,7 +5,8 @@ const YoutubeVideoList = ({ videos, onVideoSelect }) => {
         return (
             <div className="item video-list-component" key={index} onClick={() => onVideoSelect(video)}>
                 <div className="image">
-                    <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} />
+                    <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} 
+                    />
                 </div>
                 <div className="content">
                     <div className="header mb-1">{video.snippet.title}</div>

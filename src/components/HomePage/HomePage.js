@@ -1,11 +1,13 @@
 import React from "react";
-import MainLogo from "../assets/imgs/main-logo.png";
+import YoutubeHomeVideos from "../YoutubeVideo/YoutubeHomeVideos";
+
 import SideBar from "./SideBar/SideBar";
 
-const HomePage = (props) => {
+const HomePage = ({ videos, onVideoSelect }) => {
     return (
-        <div className="ui grid">
+        <div className="ui two column grid">
             <SideBar />
+            <YoutubeHomeVideos videos={videos} onVideoSelect={onVideoSelect}/>
         </div>
     )
 }
