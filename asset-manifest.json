@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/css/main.a9577ad4.css",
+    "main.js": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/js/main.ee41080b.js",
+    "static/media/main-logo.png": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/media/main-logo.74e9759358ade0b2de4e.png",
+    "static/media/logo-yt.png": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/media/logo-yt.ea8339adab41cd54d7ab.png",
+    "index.html": "/WansehDev.github.io/YoutubeClone_ReactJS.git/index.html",
+    "main.a9577ad4.css.map": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/css/main.a9577ad4.css.map",
+    "main.ee41080b.js.map": "/WansehDev.github.io/YoutubeClone_ReactJS.git/static/js/main.ee41080b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9577ad4.css",
+    "static/js/main.ee41080b.js"
+  ]
+}
